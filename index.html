@@ -21,7 +21,8 @@ button {
 	border: 5px solid #ffffff
 	}
 
-H1 {
+h1 {
+	text-shadow: 2px 2px red;
 	color: purple
 	}
     
@@ -29,12 +30,16 @@ H1 {
 	border: 5px solid #ffffff
     }
     
+
 .pusheen-image:hover {
-            animation:spin 4s linear infinite;
+            animation:spin 3s linear infinite;
             }
             
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-    
+
+#image-prompt {
+	font-family: impact;
+}
 </style>
 
     <body>
@@ -43,6 +48,8 @@ H1 {
         <div>
             <img class="pusheen-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVQ0-WIs-Zg-7KDJFaQr0TjbGd2a3btdWSqA&s"
         </div>
+        
+      <p id="image-prompt"><i>Hover over Pusheen!</i><p>
 
       <p><i>Pusheen the Cat wishing you a very Merry Christmas and a Happy New Year!</i> 💖<p>
 
